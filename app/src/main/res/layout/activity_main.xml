@@ -88,4 +88,28 @@
             android:max="255" />
     </LinearLayout>
 
+    <!--Layout for Hair Style-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_vertical">
+
+        <!--Label for Hair Style Spinner-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hair Style"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
+        <!--Spinner for the Hair Style-->
+        <Spinner
+            android:id="@+id/hairSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+    </LinearLayout>
+
 </LinearLayout>
