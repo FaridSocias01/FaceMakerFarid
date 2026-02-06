@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">FaceMakerFarid</string>
+
+    <!--Needed for Spinner-->
+    <string-array name="hair_styles">
+        <item>Short</item>
+        <item>Medium</item>
+        <item>Long</item>
+    </string-array>
+
 </resources>
