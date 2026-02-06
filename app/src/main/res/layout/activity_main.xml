@@ -118,6 +118,13 @@
         android:orientation="vertical">
 
         <!-- RedioGroup itself with the options asked-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Change Color For"
+            android:textStyle="bold"
+            android:paddingBottom="8dp" />
+
         <RadioGroup
             android:id="@+id/faceRadioGroup"
             android:layout_width="match_parent"

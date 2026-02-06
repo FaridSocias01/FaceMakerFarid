@@ -36,11 +36,9 @@ public class Face {
         int b = rng.nextInt(256);
         return Color.rgb(r, g, b);
     }
-
     public void onDraw(Canvas canvas) {
         // Empty for now because we will use it later for the face
     }
-
     // Helper methods for onDraw
     private void drawSkin(Canvas canvas) {
         //empty
