@@ -10,10 +10,10 @@
     tools:context=".MainActivity">
 
     <!-- Just plain SurfaceView created for later on -->
-    <SurfaceView
+    <edu.up.FaceSurfaceView
         android:id="@+id/faceSurface"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="400dp"
         android:layout_marginBottom="16dp" />
 
     <!-- Text identification to let user know what the seekbars will do-->
